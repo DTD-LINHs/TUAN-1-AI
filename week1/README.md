@@ -87,73 +87,50 @@ Tuần này tập trung tìm hiểu các kiến thức nền tảng về AI, Mac
 ```python
 print("hello world")
 # **b. Nguồn dữ liệu**
+b. Nguồn dữ liệu
 
-## **1. Kaggle**
-- Kaggle là nền tảng thi đấu Machine Learning và chia sẻ dataset có cộng đồng lớn nhất thế giới.
-- Người dùng có thể:
-  - Tải dataset
-  - Dùng Kaggle Notebook
-  - Tham gia thi đấu AI/ML
-  - Học hỏi qua code của cộng đồng
+Kaggle: nền tảng thi ML và chia sẻ dataset.
 
-### **Dataset phổ biến trên Kaggle**
-- Titanic – Machine Learning from Disaster  
-- House Prices – Advanced Regression  
-- MNIST Digit Classification  
-- CIFAR-10 Image Dataset  
-- Dogs vs Cats  
-- Credit Card Fraud Detection  
+Dataset phổ biến: Titanic, House Prices, MNIST, CIFAR-10,...
 
----
+Hugging Face: nền tảng chia sẻ mô hình ML/DL.
 
-## **2. Hugging Face**
-- Hugging Face là nền tảng chia sẻ mô hình Machine Learning/Deep Learning lớn nhất hiện nay.
-- Hỗ trợ NLP, Computer Vision, Audio, Multimodal…
+Có: Models, Datasets, Spaces.
 
-### **Hugging Face gồm có:**
-- **Models:** Kho mô hình khổng lồ (BERT, T5, GPT, Whisper, CLIP…).  
-- **Datasets:** Hơn 100k+ dataset.  
-- **Spaces:** Nơi tạo demo web AI bằng Gradio/Streamlit.  
+4. Exploratory Data Analysis (EDA)
+EDA là gì?
 
----
+EDA là bước phân tích dữ liệu sơ bộ để hiểu rõ dataset trước khi xây dựng mô hình.
 
-# **4. Exploratory Data Analysis (EDA)**
+Gồm 3 phần chính:
+1. Data Understanding
 
-## **EDA là gì?**
-EDA (Exploratory Data Analysis) là bước phân tích dữ liệu sơ bộ để hiểu rõ dataset trước khi xây dựng mô hình.  
-Mục tiêu là phát hiện cấu trúc, xu hướng, bất thường và hiểu dữ liệu đủ sâu để ra quyết định tiếp theo.
+Kiểm tra số dòng, số cột
 
----
+Các thuộc tính dữ liệu
 
-## **1. Data Understanding**
-- Kiểm tra số dòng, số cột.
-- Xem danh sách các thuộc tính.
-- Kiểu dữ liệu (int, float, object, datetime…).
-- Kiểm tra giá trị thiếu (missing values).
-- Kiểm tra dữ liệu trùng lặp (duplicates).
-- Xác định outliers (giá trị ngoại lai).
+Kiểu dữ liệu (int, float, object)
 
----
+Giá trị thiếu, dữ liệu trùng
 
-## **2. Data Analysis**
-- Phân bố dữ liệu (distribution).
-- Mối quan hệ giữa các biến.
-- Tương quan (correlation matrix).
-- Thống kê mô tả:
-  - Mean (giá trị trung bình)
-  - Median (trung vị)
-  - Std (độ lệch chuẩn)
-  - Min/Max
-  - Quartiles
+2. Data Analysis
 
----
+Phân bố dữ liệu
 
-## **3. Data Visualization**
-- **Histogram:** trực quan phân bố dữ liệu.
-- **Scatter Plot:** mối quan hệ giữa 2 biến số.
-- **Boxplot:** phát hiện outliers.
-- **Heatmap:** ma trận tương quan.
-- **Biểu đồ bar/category:** phân tích thuộc tính dạng phân loại.
+Mối quan hệ giữa các biến
 
----
+Tương quan (correlation)
 
+Thống kê cơ bản: mean, median, std,...
+
+3. Data Visualization
+
+Biểu đồ histogram
+
+Scatter plot
+
+Boxplot
+
+Heatmap
+
+Biểu đồ phân loại/category
